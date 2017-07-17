@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add_contact"
+        android:title=""
+        app:showAsAction="always"
+        android:actionLayout="@layout/add_contact_menu_layout" />
+
+</menu>

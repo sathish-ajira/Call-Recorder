@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item-->
+        <!--android:id="@+id/storage"-->
+        <!--android:icon="@drawable/storage"-->
+        <!--android:title="Storage" />-->
+
+    <item
+        android:id="@+id/cloud"
+        android:icon="@drawable/ic_cloud_backup"
+        android:title="Sync to Cloud" />
+
+    <!--<item-->
+        <!--android:id="@+id/whitelist"-->
+        <!--android:icon="@drawable/white_list"-->
+        <!--android:title="White List" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/selected_contact"-->
+        <!--android:icon="@drawable/selected_list"-->
+        <!--android:title="Selected Contact" />-->
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/settings"
+        android:title="Settings" />
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/about"
+        android:title="About Us" />
+
+    <!--<item-->
+        <!--android:id="@+id/exit"-->
+        <!--android:icon="@drawable/exit"-->
+        <!--android:title="Sign Out" />-->
+
+</menu>

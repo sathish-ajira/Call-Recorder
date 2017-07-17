@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4fbaf0</color>
+    <color name="colorPrimaryDark">#3f9fcf</color>
+    <color name="colorAccent">#FF5959</color>
+    <color name="white">#ffffff</color>
+
+    <color name="colorHint">#a9aaac</color>
+    <color name="colorLightGray">#dadadc</color>
+    <color name="red">#FF5959</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="error_btn_bg_color">#ec7c7c</color>
+    <color name="green">#008000</color>
+    <color name="orange">#FFAD2F</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="success_stroke_color">#83da51</color>
+    <color name="limeGreen">#2abe3e</color>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/play"
+        android:icon="@drawable/ic_play"
+        android:title="Play" />
+
+    <!--<item-->
+        <!--android:id="@+id/cloud"-->
+        <!--android:icon="@drawable/ic_cloud_backup"-->
+        <!--android:title="Cloud Backup" />-->
+
+    <item
+        android:id="@+id/call"
+        android:icon="@drawable/ic_call"
+        android:title="Call" />
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share"
+        android:title="Share" />
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/ic_delete"
+        android:title="Delete" />
+    <item
+        android:id="@+id/details"
+        android:icon="@drawable/ic_details"
+        android:title="Details" />
+</menu>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Crucial Conversation</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+    <string name="back"><![CDATA[<]]></string>
+    <string name="rewind"><![CDATA[<<]]></string>
+    <string name="forward"><![CDATA[>>]]></string>
+    <string name="pause">||</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="preferences_category_one">Call Record Settings</string>
+    <string name="preferences_category_two">Category 2</string>
+
+    <string name="preferences_switch_title">Record All CALLS </string>
+    <string name="preferences_switch_summ">show record dialog for all calls</string>
+
+    <string name="preferences_edittext_title">EditText Preference</string>
+    <string name="preferences_edittext_summ">EditText Summary</string>
+
+    <string name="preferences_time_title">Time Preference</string>
+    <string name="preferences_time_summ">Time Summary</string>
+
+    <string name="preferences_checkbox_title">CheckBox Preference</string>
+    <string name="preferences_checkbox_summ">CheckBox Summary</string>
+
+    <string name="btn_custom">Button in custom layout</string>
+</resources>

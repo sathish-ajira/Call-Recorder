@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_rectangle"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="S"
+                android:id="@+id/contact_char"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:background="@drawable/circle_textview"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sathish Kumar"
+                    android:id="@+id/contact_name"
+                    android:textSize="16dp"
+                    android:gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@android:color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.08"
+                        android:tint="@color/green"
+                        android:id="@+id/img_call_type"
+                        android:src="@drawable/ic_leftarrow"/>
+
+                    <TextView
+                        android:id="@+id/mobile_number"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:textSize="12dp"
+                        android:textColor="@color/colorPrimary"
+                        tools:text="+918015352654" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="50dp"
+                android:text="Record All Calls"
+                android:textSize="15sp"
+                android:id="@+id/all_calls"
+                android:textAllCaps="false"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/select_button_background"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="50dp"
+                android:text="Record On My Wish"
+                android:textSize="15sp"
+                android:id="@+id/on_wish"
+                android:textAllCaps="false"
+                android:textColor="@color/colorHint"
+                android:background="@drawable/unselect_button_background"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorHint"/>
+
+        <EditText
+            android:id="@+id/edit_contact_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="18dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rectangle_background"
+            android:textColorHint="@color/colorHint"
+            android:textColor="@android:color/black"
+            android:imeOptions="actionDone"
+            android:layout_marginTop="10dp"
+            android:hint="Add Contact Name" />
+
+        <EditText
+            android:id="@+id/context"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="18dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rectangle_background"
+            android:textColorHint="@color/colorHint"
+            android:textColor="@android:color/black"
+            android:imeOptions="actionDone"
+            android:layout_marginTop="10dp"
+            android:hint="Add Remarks" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="50dp"
+                android:text="Personal"
+                android:id="@+id/personal"
+                android:textSize="16dp"
+                android:textAllCaps="false"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/select_button_background"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="50dp"
+                android:text="Bussiness"
+                android:textSize="16dp"
+                android:id="@+id/bussiness"
+                android:textAllCaps="false"
+                android:textColor="@color/colorHint"
+                android:background="@drawable/unselect_button_background"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/rectangle_background"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Importance"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <RatingBar
+                android:rating="3"
+                android:theme="@style/RatingBar"
+                android:layout_marginLeft="15dp"
+                android:stepSize="1"
+                android:numStars="5"
+                android:id="@+id/rating_bar"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="14dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rectangle_background"
+            android:textColor="@color/colorHint"
+            android:text="Recorded data will store only in your google drive and your mobie device." />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="40dp"
+                android:text="Cancel"
+                android:id="@+id/cancel"
+                android:textAllCaps="false"
+                android:textSize="14dp"
+                android:gravity="center"
+                android:textColor="@color/colorHint"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/error_button_background"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="40dp"
+                android:text="Save"
+                android:id="@+id/save"
+                android:textAllCaps="false"
+                android:textSize="14dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_background_green"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:textSize="14dp"
+                android:textColor="@color/colorHint"
+                android:text="Powered by www.tech42labs.com"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

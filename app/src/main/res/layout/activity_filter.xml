@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcfcfc"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/rectangle_background"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Filter By"
+            android:layout_marginLeft="5dp"
+            android:textSize="16dp"
+            android:textColor="@color/red"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/check_contact_name"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:text="Contact Name"/>
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_contact_name"
+            android:textColor="@android:color/black"
+            android:textSize="14dp"
+            android:singleLine="true"
+            android:paddingLeft="10dp"
+            android:imeOptions="actionDone"
+            android:textColorHint="@color/colorHint"
+            android:layout_marginTop="5dp"
+            android:hint="Contact Name"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/check_date"
+            android:text="Date"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="14dp"
+            android:editable="false"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorHint"
+            android:id="@+id/edit_date"
+            android:hint="Date"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/check_context"
+            android:textColor="@android:color/black"
+            android:text="Context"/>
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="14dp"
+            android:singleLine="true"
+            android:textColorHint="@color/colorHint"
+            android:id="@+id/edit_context"
+            android:imeOptions="actionDone"
+            android:ems="2"
+            android:hint="Context"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/check_mobile_number"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:text="Mobile Number"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_mobile_number"
+            android:textSize="14dp"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorHint"
+            android:layout_marginTop="5dp"
+            android:hint="Mobile Number"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/check_category"
+            android:textColor="@android:color/black"
+            android:text="Category"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorHint"
+            android:layout_marginTop="5dp"
+            android:textSize="14dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/spinner_category"
+            android:hint="Category"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/check_call_type"
+            android:textColor="@android:color/black"
+            android:text="Call Type"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="14dp"
+            android:paddingLeft="10dp"
+            android:textColorHint="@color/colorHint"
+            android:id="@+id/spinner_call_type"
+            android:hint="Call Type"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/importance"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"
+                android:text="Importance"/>
+
+            <RatingBar
+                android:rating="5"
+                android:theme="@style/RatingBar"
+                android:layout_marginLeft="15dp"
+                android:stepSize="1"
+                android:numStars="5"
+                android:id="@+id/rating_bar"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rectangle_background"
+                android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Sort By"
+            android:layout_marginLeft="5dp"
+            android:textSize="16dp"
+            android:textColor="@color/red"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sort_by_date"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:text="Order By Date"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sort_by_name"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:text="Order By Name"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/show_all"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="10dp"
+            android:text="Restore"/>
+
+                </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="30dp"
+            android:text="Cancel"
+            android:id="@+id/cancel"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:textColor="@color/colorHint"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/error_button_background"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="30dp"
+            android:text="Filter"
+            android:id="@+id/filter"
+            android:textAllCaps="false"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_background"/>
+
+    </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

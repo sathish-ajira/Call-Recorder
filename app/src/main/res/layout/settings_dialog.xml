@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/custom_rectangle"
+    android:layout_height="match_parent">
+
+    <!--<FrameLayout-->
+    <!--android:id="@+id/pref_container"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/red"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorHint"/>
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="16dp"
+        android:id="@+id/all_calls"
+        android:layout_marginTop="15dp"
+        android:text="Record All Calls"/>
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="15dp"
+        android:textSize="16dp"
+        android:id="@+id/my_wish"
+        android:layout_marginRight="15dp"
+        android:text="Record On My Wish"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="40dp"
+            android:text="Cancel"
+            android:id="@+id/cancel"
+            android:textAllCaps="false"
+            android:textSize="14dp"
+            android:gravity="center"
+            android:textColor="@color/colorHint"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/error_button_background"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="40dp"
+            android:text="Apply"
+            android:id="@+id/apply"
+            android:textAllCaps="false"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_background"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
